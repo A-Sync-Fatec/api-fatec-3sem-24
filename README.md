@@ -14,7 +14,7 @@
 <span id="objetivo">
   
 ## 🎯 Objetivo do Projeto
-
+Este projeto é uma releitura do portal de transparência da Fundação de Apoio à Pesquisa de Pós-Graduandos(FAPG), desenvolvido com foco na segurança e acessibilidade. Aproveitando as tecnologias e linguagens de programação mais recentes, buscamos oferecer uma plataforma robusta e confiável, que facilite o acesso às informações públicas de maneira transparente e eficiente.
 
 <br>
 
@@ -22,7 +22,7 @@
  
 ## 💻 Tecnologias
 <div align="center">
-
+ <img src="https://img.shields.io/badge/java-%23ED8B28.svg?style=for-the-badge&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"> <img src="https://img.shields.io/badge/typescript-%230b0f87.svg?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/mysql-7d09d6.svg?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/figma-%23000000.svg?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
 </div>
 
 <br>
@@ -40,6 +40,22 @@ Sprint 4: em andamento 🔁
 <span id="requisitos">
 
 ## 🗂 Requisitos do parceiro
+| ID | Requisitos Funcionais |
+| :--: | :-----------------: |
+| 1 | Ferramenta de importação de dados da aplicação legada no novo banco de dados projetado |
+| 2 | Interface para cadastro de novos projetos |
+| 3 | Interface de pesquisa de projetos |
+| 4 | Interface de cadastro de usuários |
+| 5 | Relatórios/dashboards de projetos desenvolvidos, com diferentes tipos de filtros |
+
+<br>
+
+| ID | Requisitos Não-Funcionais |
+| :--: | :---------------------: |
+| 6 | Manual do Usuário |
+| 7 | Software Web e Multiusuário |
+| 8 | Responsivo |
+| 9 | Segurança da Informação |
 
 <br>
 
