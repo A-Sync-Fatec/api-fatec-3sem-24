@@ -1,0 +1,6 @@
+[submodule "api-back-2-24"]
+	path = api-back-2-24
+	url = https://github.com/A-Sync-Fatec/api-back-2-24.git
+[submodule "api-front-2-24"]
+	path = api-front-2-24
+	url = https://github.com/A-Sync-Fatec/api-front-2-24.git
