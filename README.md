@@ -1,8 +1,13 @@
+<div align="center">
+  <img alt="logo" width="800" src="https://drive.google.com/uc?id=1ME5HWejQMOexNmT7WEnPESlQNyF7f4E6">
+</div>
+
 <br>
 
 <p align="center">
   <a href="#objetivo">Objetivo do Projeto </a>  |
   <a href="#tecnologias">Tecnologias </a>  |
+  <a href="DoR">Definition of Ready (DoR) </a> |
   <a href="#sprints">Sprints</a>  |
   <a href="#requisitos">Requisitos do parceiro</a> |
   <a href="#backlog">Product Backlog</a>  | 
@@ -27,10 +32,27 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 
 <br>
 
+<span id="DoR">
+
+## Definition of Ready (DoR)
+### Sprint Backlog:
+- **User stories:** funcionalidades especificadas, compreendidas por todos da equipe e acordadas com o cliente.
+- **Critérios de aceitação:** descreve de forma clara o que o sistema precisa fazer para a funcionalidade estar completa.
+- **Estimativa:** estimativa em horas de cada user storie baseada em sua complexidade
+- **Tarefas:** a funcionalidade é repartida em tarefas
+
+### Modelo do banco de dados
+- Descreve a estrutura de armazenamento dos dados do sistema, incluindo as tabelas, os campos e os relacionamentos entre as tabelas.
+
+### Mockup
+- Uma representação visual estática da interface do usuário, que demonstra o layout e a organização dos elementos de cada página.
+
+<br>
+
 <span id="sprints">
 
 ## 🗓 Sprints
-Sprint 1: em andamento 🔁  <br>
+[Sprint 1](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint1): em andamento 🔁  <br>
 Sprint 2: em andamento 🔁  <br>
 Sprint 3: em andamento 🔁  <br>
 Sprint 4: em andamento 🔁 
