@@ -8,6 +8,7 @@
   <a href="#objetivo">Objetivo do Projeto </a>  |
   <a href="#tecnologias">Tecnologias </a>  |
   <a href="DoR">Definition of Ready (DoR) </a> |
+  <a href="DoD">Definition of Done (DoD) </a> |
   <a href="#sprints">Sprints</a>  |
   <a href="#requisitos">Requisitos do parceiro</a> |
   <a href="#backlog">Product Backlog</a>  | 
@@ -34,18 +35,32 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 
 <span id="DoR">
 
-## Definition of Ready (DoR)
-### Sprint Backlog:
-- **User stories:** funcionalidades especificadas, compreendidas por todos da equipe e acordadas com o cliente.
-- **Critérios de aceitação:** descreve de forma clara o que o sistema precisa fazer para a funcionalidade estar completa.
-- **Estimativa:** estimativa em horas de cada user storie baseada em sua complexidade.
-- **Tarefas:** a funcionalidade é repartida em tarefas.
+## 📝 Definition of Ready (DoR)
+### User stories:
+- Funcionalidades especificadas, compreendidas por todos da equipe e acordadas com o cliente.
+
+### Critérios de aceitação:
+- Descreve de forma clara o que o sistema precisa fazer para a funcionalidade estar completa.
+
+### Tarefas:
+- A funcionalidade é repartida em tarefas.
 
 ### Modelo do banco de dados
 - Descreve a estrutura de armazenamento dos dados do sistema, incluindo as tabelas, os campos e os relacionamentos entre as tabelas.
 
 ### Mockup
 - Uma representação visual estática da interface do usuário, que demonstra o layout e a organização dos elementos de cada página.
+
+<br>
+
+<span id="DoD">
+
+## ✅ Definition of Done (DoD)
+### Funcionalidade:
+- A funcionalidade corresponde aos critérios de aceitação
+
+### Interface:
+- A interface corresponde ao mockuo e o layout está adaptado para todos os principais tamanhos de tela
 
 <br>
 
@@ -84,29 +99,28 @@ Sprint 4: em andamento 🔁
 <span id="backlog">
 
 ## 📋 Product Backlog
-| Sprint | User Stories | Estimativa |
-| :----: | :----------: | :--------: |
-| 1 | Como super administrador quero fazer login no sistema para acessar configurações avançadas e gerenciar o portal de forma eficiente              |                |
-| 1 | Como super administrador quero me cadastrar no sistema para obter acesso privilegiado e utilizar as funcionalidades exclusivas de administração |                |
-| 1 | Como super administrador quero adicionar novos projetos ao sistema para manter o portal de transparência sempre atualizado e informativo        |                |
-| 1 | Como usuário quero visualizar projetos por filtros para encontrar rapidamente as informações que procuro no portal                              |                |
-| 2 | Como super administrador quero modificar projetos já criados para corrigir erros ou atualizar informações                                       |                |
-| 2 | Como super administrador quero excluir projetos obsoletos ou irrelevantes, mantendo o portal organizado                                         |                |
-| 2 | Como usuário e administrador quero ter os projetos do portal transparência integrados ao meu sistema, garantindo que os dados sejam atualizados e enriquecidos sem a necessidade de inserção manual |                |
-| 2 | Como usuário quero exportar a lista de projetos em diferentes formatos (PDF ou Excel) para que eu possa consultá-los offline ou compartilhá-los |                |
-| 2 | Como usuário quero solicitar o envio por e-mail de projetos criados em um determinado período, facilitando o meu acompanhamento dos projetos    |                |
-| 3 | Como super administrador quero poder preencher um formulário de cadastro com as informações necessárias para criar um novo ADM                  |                |
-| 3 | Como ADM recém-cadastrado, quero receber um e-mail de boas-vindas com instruções para acessar o sistema e definir uma senha                     |                |
-| 3 | Como super administrador quero poder visualizar uma lista de todos os ADMs cadastrados no sistema, incluindo detalhes como nome, e-mail, e data de criação |                |
-| 3 | Como super administrador quero poder editar as informações de um ADM cadastrado caso haja necessidade de atualizar dados como e-mail ou número de telefone |                |
-| 3 | Como super administrador quero poder desativar ou excluir um ADM que não deve mais ter acesso ao sistema                                        |                |
-| 3 | Como super administrador quero aceitar ou não a proposta de criação, edição ou exclusão de projetos pelos administrados para garantir a autenticidade das informações |                |
-| 4 | Como administrador, quero filtrar no gráfico os projetos por período de execução para visualizar apenas os projetos que ocorreram ou estão ocorrendo em um intervalo de datas específico |                |
-| 4 | Como administrador, quero poder filtrar no gráfico os projetos pelo coordenador responsável para acompanhar a performance dos coordenadores     |                |
-| 4 | Como administrador, quero poder filtrar no gráfico os projetos por tipo de projeto (classificação) para visualizar apenas os projetos de uma determinada categoria |                |
-| 4 | Como administrador, quero poder filtrar no gráfico os projetos pela situação atual para monitorar quais projetos estão em andamento, concluídos ou cancelados |                |
-| 4 | Como administrador, quero poder filtrar os projetos pela duração, categorizando-os em curto, médio ou longo prazo para facilitar a análise do tempo de execução dos projetos |                |
-| 4 | Como administrador, quero poder filtrar os projetos por faixa orçamentária para identificar e analisar projetos dentro de um determinado intervalo de valores |                |
+| **Sprint** | **User Stories** | **Estimativa** |
+|------------|------------------|----------------|
+| 1          | Como super administrador quero fazer login no sistema para acessar configurações avançadas e gerenciar o portal de forma eficiente | 7 |
+| 1          | Como super administrador quero adicionar novos projetos ao sistema para manter o portal de transparência sempre atualizado e informativo | 5 |
+| 1          | Como usuário e administrador, quero que os projetos do Portal de Transparência sejam integrados ao meu sistema, garantindo que os dados sejam preservados e mantenha a transparência | 8 |
+| 2          | Como super administrador quero modificar projetos já criados para corrigir erros ou atualizar informações | - |
+| 2          | Como super administrador quero excluir projetos obsoletos ou irrelevantes, mantendo o portal organizado | - |
+| 2          | Como usuário quero visualizar projetos por filtros para encontrar rapidamente as informações que procuro no portal | - |
+| 2          | Como usuário quero exportar projetos em diferentes formatos (PDF ou Excel) para que eu possa consultá-los offline ou compartilhá-los | - |
+| 3          | Como super administrador, quero poder preencher um formulário de cadastro com as informações necessárias para criar um novo ADM | - |
+| 3          | Como ADM recém-cadastrado, quero receber um e-mail de boas-vindas com instruções para acessar o sistema e definir uma senha | - |
+| 3          | Como super administrador, quero poder visualizar uma lista de todos os ADMs cadastrados no sistema, incluindo detalhes como nome, e-mail, e data de criação | - |
+| 3          | Como super administrador, quero poder editar as informações de um ADM cadastrado caso haja necessidade de atualizar dados como e-mail ou número de telefone | - |
+| 3          | Como super administrador, quero poder desativar um ADM que não deve mais ter acesso ao sistema | - |
+| 3          | Como super administrador quero aceitar ou não a proposta de criação, edição ou exclusão de projetos pelos administradores para garantir a autenticidade das informações | - |
+| 4          | Como um administrador, quero filtrar no gráfico os projetos por período de execução para visualizar apenas os projetos que ocorreram ou estão ocorrendo em um intervalo de datas específico | - |
+| 4          | Como um administrador, quero poder filtrar no gráfico os projetos pelo coordenador responsável para acompanhar a performance dos coordenadores | - |
+| 4          | Como um administrador, quero poder filtrar no gráfico os projetos por tipo de projeto (classificação) para visualizar apenas os projetos de uma determinada categoria | - |
+| 4          | Como um administrador, quero poder filtrar no gráfico os projetos pela situação atual para monitorar quais projetos estão em andamento, concluídos ou cancelados | - |
+| 4          | Como um administrador, quero poder filtrar os projetos pela duração, categorizando-os em curto, médio ou longo prazo para facilitar a análise do tempo de execução dos projetos | - |
+| 4          | Como um administrador, quero poder filtrar os projetos por faixa orçamentária para identificar e analisar projetos dentro de um determinado intervalo de valores | - |
+
 
 <br>
 
