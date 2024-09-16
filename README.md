@@ -7,8 +7,8 @@
 <p align="center">
   <a href="#objetivo">Objetivo do Projeto </a>  |
   <a href="#tecnologias">Tecnologias </a>  |
-  <a href="DoR">Definition of Ready (DoR) </a> |
-  <a href="DoD">Definition of Done (DoD) </a> |
+  <a href="#DoR">Definition of Ready (DoR) </a> |
+  <a href="#DoD">Definition of Done (DoD) </a> |
   <a href="#sprints">Sprints</a>  |
   <a href="#requisitos">Requisitos do parceiro</a> |
   <a href="#backlog">Product Backlog</a>  | 
