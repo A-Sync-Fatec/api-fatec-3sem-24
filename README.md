@@ -60,7 +60,7 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 - A funcionalidade corresponde aos critérios de aceitação
 
 ### Interface:
-- A interface corresponde ao mockuo e o layout está adaptado para todos os principais tamanhos de tela
+- A interface corresponde ao mockup e o layout está adaptado para todos os principais tamanhos de tela
 
 <br>
 
