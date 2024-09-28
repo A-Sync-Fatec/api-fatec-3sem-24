@@ -68,9 +68,9 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 
 ## 🗓 Sprints
 [Sprint 1](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint1): em andamento 🔁  <br>
-Sprint 2: em andamento 🔁  <br>
-Sprint 3: em andamento 🔁  <br>
-Sprint 4: em andamento 🔁 
+[Sprint 2](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint2): não iniciado ❌  <br>
+Sprint 3: não iniciado ❌ <br>
+Sprint 4: não iniciado ❌ 
 
 <br>
 
@@ -104,22 +104,23 @@ Sprint 4: em andamento 🔁
 | 1          | Como super administrador quero fazer login no sistema para acessar configurações avançadas e gerenciar o portal de forma eficiente | 7 |
 | 1          | Como super administrador quero adicionar novos projetos ao sistema para manter o portal de transparência sempre atualizado e informativo | 5 |
 | 1          | Como usuário e administrador, quero que os projetos do Portal de Transparência sejam integrados ao meu sistema, garantindo que os dados sejam preservados e mantenha a transparência | 8 |
-| 2          | Como super administrador quero modificar projetos já criados para corrigir erros ou atualizar informações | - |
-| 2          | Como super administrador quero excluir projetos obsoletos ou irrelevantes, mantendo o portal organizado | - |
-| 2          | Como usuário quero visualizar projetos por filtros para encontrar rapidamente as informações que procuro no portal | - |
-| 2          | Como usuário quero exportar projetos em diferentes formatos (PDF ou Excel) para que eu possa consultá-los offline ou compartilhá-los | - |
-| 3          | Como super administrador, quero poder preencher um formulário de cadastro com as informações necessárias para criar um novo ADM | - |
-| 3          | Como ADM recém-cadastrado, quero receber um e-mail de boas-vindas com instruções para acessar o sistema e definir uma senha | - |
-| 3          | Como super administrador, quero poder visualizar uma lista de todos os ADMs cadastrados no sistema, incluindo detalhes como nome, e-mail, e data de criação | - |
-| 3          | Como super administrador, quero poder editar as informações de um ADM cadastrado caso haja necessidade de atualizar dados como e-mail ou número de telefone | - |
-| 3          | Como super administrador, quero poder desativar um ADM que não deve mais ter acesso ao sistema | - |
-| 3          | Como super administrador quero aceitar ou não a proposta de criação, edição ou exclusão de projetos pelos administradores para garantir a autenticidade das informações | - |
-| 4          | Como um administrador, quero filtrar no gráfico os projetos por período de execução para visualizar apenas os projetos que ocorreram ou estão ocorrendo em um intervalo de datas específico | - |
-| 4          | Como um administrador, quero poder filtrar no gráfico os projetos pelo coordenador responsável para acompanhar a performance dos coordenadores | - |
-| 4          | Como um administrador, quero poder filtrar no gráfico os projetos por tipo de projeto (classificação) para visualizar apenas os projetos de uma determinada categoria | - |
-| 4          | Como um administrador, quero poder filtrar no gráfico os projetos pela situação atual para monitorar quais projetos estão em andamento, concluídos ou cancelados | - |
-| 4          | Como um administrador, quero poder filtrar os projetos pela duração, categorizando-os em curto, médio ou longo prazo para facilitar a análise do tempo de execução dos projetos | - |
-| 4          | Como um administrador, quero poder filtrar os projetos por faixa orçamentária para identificar e analisar projetos dentro de um determinado intervalo de valores | - |
+| 1          | Como usuário e administrador, desejo visualizar os projetos armazenados no banco de dados na página da FAPG para garantir a transparência | 6 |
+| 2          | Como um administrador, quero filtrar no gráfico os projetos por período de execução para visualizar apenas os projetos que ocorreram ou estão ocorrendo em um intervalo de datas específico | 6 |
+| 2          | Como um administrador, quero poder filtrar no gráfico os projetos pelo coordenador responsável para acompanhar a performance dos coordenadores | 5 |
+| 2          | Como um administrador, quero poder filtrar no gráfico os projetos pela situação atual para monitorar quais projetos estão em andamento, concluídos ou cancelados | 7 |
+| 2          | Como um administrador, quero poder filtrar os projetos por faixa orçamentária para identificar e analisar projetos dentro de um determinado intervalo de valores | 8 |
+| 2          | Como administrador, quero realizar uma combinação de filtros para localizar os projetos de forma precisa | 3 |
+| 3          | Como super administrador quero modificar projetos já criados para corrigir erros ou atualizar informações | - |
+| 3          | Como super administrador quero excluir projetos obsoletos ou irrelevantes, mantendo o portal organizado | - |
+| 3          | Como usuário quero visualizar projetos por filtros para encontrar rapidamente as informações que procuro no portal | - |
+| 3          | Como usuário quero exportar projetos em diferentes formatos (PDF ou Excel) para que eu possa consultá-los offline ou compartilhá-los | - |
+| 4          | Como super administrador, quero poder preencher um formulário de cadastro com as informações necessárias para criar um novo ADM | - |
+| 4          | Como ADM recém-cadastrado, quero receber um e-mail de boas-vindas com instruções para acessar o sistema e definir uma senha | - |
+| 4          | Como super administrador, quero poder visualizar uma lista de todos os ADMs cadastrados no sistema, incluindo detalhes como nome, e-mail, e data de criação | - |
+| 4          | Como super administrador, quero poder editar as informações de um ADM cadastrado caso haja necessidade de atualizar dados como e-mail ou número de telefone | - |
+| 4          | Como super administrador, quero poder desativar um ADM que não deve mais ter acesso ao sistema | - |
+| 4          | Como super administrador quero aceitar ou não a proposta de criação, edição ou exclusão de projetos pelos administradores para garantir a autenticidade das informações | - |
+
 
 
 <br>
