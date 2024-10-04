@@ -67,10 +67,12 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 <span id="sprints">
 
 ## 🗓 Sprints
-[Sprint 1](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint1): em andamento 🔁  <br>
-[Sprint 2](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint2): não iniciado ❌  <br>
-Sprint 3: não iniciado ❌ <br>
-Sprint 4: não iniciado ❌ 
+| Sprint | Período | Status |
+| :----: | :-----: | :----: |
+| [Sprint 1](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint1) | 09/09/2024 - 29/09/2024 | Concluído ✅ |  <br>
+| [Sprint 2](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint2) | 30/09/2024 - 20/10/2024 | Em Andamento 🔁 | <br>
+| Sprint 3 | 21/10/2024 - 10/11/2024  | Não Iniciado ❌ | <br>
+| Sprint 4 | 11/11/2024 - 01/12/2024  | Não Iniciado ❌ |
 
 <br>
 
@@ -79,47 +81,52 @@ Sprint 4: não iniciado ❌
 ## 🗂 Requisitos do parceiro
 | ID | Requisitos Funcionais |
 | :--: | :-----------------: |
-| 1 | Ferramenta de importação de dados da aplicação legada no novo banco de dados projetado |
-| 2 | Interface para cadastro de novos projetos |
-| 3 | Interface de pesquisa de projetos |
-| 4 | Interface de cadastro de usuários |
-| 5 | Relatórios/dashboards de projetos desenvolvidos, com diferentes tipos de filtros |
+| 1 | Ferramenta para migração dos dados do sistema da FAPG para o novo banco de dados |
+| 2 | Interface para registro de novos projetos no sistema |
+| 3 | Interface para busca de projetos |
+| 4 | Interface para criar e gerenciar perfis de usuários |
+| 5 | Relatórios e dashboards dos projetos, permitindo o uso de diferentes filtros |
 
 <br>
 
 | ID | Requisitos Não-Funcionais |
 | :--: | :---------------------: |
-| 6 | Manual do Usuário |
-| 7 | Software Web e Multiusuário |
-| 8 | Responsivo |
-| 9 | Segurança da Informação |
+| 6 | Documentação de apoio para uso do sistema |
+| 7 | Aplicação Web com suporte para múltiplos usuários simultâneos |
+| 8 | Design responsivo, adaptável a diferentes dispositivos |
+| 9 | Medidas de segurança para proteger as informações do sistema |
 
 <br>
 
 <span id="backlog">
 
 ## 📋 Product Backlog
-| **Sprint** | **User Stories** | **Estimativa** |
-|------------|------------------|----------------|
-| 1          | Como super administrador quero fazer login no sistema para acessar configurações avançadas e gerenciar o portal de forma eficiente | 7 |
-| 1          | Como super administrador quero adicionar novos projetos ao sistema para manter o portal de transparência sempre atualizado e informativo | 5 |
-| 1          | Como usuário e administrador, quero que os projetos do Portal de Transparência sejam integrados ao meu sistema, garantindo que os dados sejam preservados e mantenha a transparência | 8 |
-| 1          | Como usuário e administrador, desejo visualizar os projetos armazenados no banco de dados na página da FAPG para garantir a transparência | 6 |
-| 2          | Como um administrador, quero filtrar no gráfico os projetos por período de execução para visualizar apenas os projetos que ocorreram ou estão ocorrendo em um intervalo de datas específico | 6 |
-| 2          | Como um administrador, quero poder filtrar no gráfico os projetos pelo coordenador responsável para acompanhar a performance dos coordenadores | 5 |
-| 2          | Como um administrador, quero poder filtrar no gráfico os projetos pela situação atual para monitorar quais projetos estão em andamento, concluídos ou cancelados | 7 |
-| 2          | Como um administrador, quero poder filtrar os projetos por faixa orçamentária para identificar e analisar projetos dentro de um determinado intervalo de valores | 8 |
-| 2          | Como administrador, quero realizar uma combinação de filtros para localizar os projetos de forma precisa | 3 |
-| 3          | Como super administrador quero modificar projetos já criados para corrigir erros ou atualizar informações | - |
-| 3          | Como super administrador quero excluir projetos obsoletos ou irrelevantes, mantendo o portal organizado | - |
-| 3          | Como usuário quero visualizar projetos por filtros para encontrar rapidamente as informações que procuro no portal | - |
-| 3          | Como usuário quero exportar projetos em diferentes formatos (PDF ou Excel) para que eu possa consultá-los offline ou compartilhá-los | - |
-| 4          | Como super administrador, quero poder preencher um formulário de cadastro com as informações necessárias para criar um novo ADM | - |
-| 4          | Como ADM recém-cadastrado, quero receber um e-mail de boas-vindas com instruções para acessar o sistema e definir uma senha | - |
-| 4          | Como super administrador, quero poder visualizar uma lista de todos os ADMs cadastrados no sistema, incluindo detalhes como nome, e-mail, e data de criação | - |
-| 4          | Como super administrador, quero poder editar as informações de um ADM cadastrado caso haja necessidade de atualizar dados como e-mail ou número de telefone | - |
-| 4          | Como super administrador, quero poder desativar um ADM que não deve mais ter acesso ao sistema | - |
-| 4          | Como super administrador quero aceitar ou não a proposta de criação, edição ou exclusão de projetos pelos administradores para garantir a autenticidade das informações | - |
+| Sprint | User Stories                                                                                                                                           | Estimativa |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| 1      | Como super administrador quero fazer login no sistema para acessar configurações avançadas e gerenciar o portal de forma eficiente.                     | 7          |
+| 1      | Como super administrador quero adicionar novos projetos ao sistema.               | 5          |
+| 1      | Como usuário e administrador, quero que os projetos do Portal de Transparência sejam integrados ao meu sistema, garantindo que os dados sejam preservados e mantenha a transparência | 8          |
+| 1      | Como usuário e administrador, desejo visualizar os projetos armazenados no banco de dados na página da FAPG para garantir a transparência              | 6          |
+| 2      | Como super administrador quero modificar projetos já criados para corrigir erros ou atualizar informações                                              | 5          |
+| 2      | Como super administrador quero excluir projetos obsoletos ou irrelevantes, mantendo o portal organizado                                                | 6          |
+| 2      | Como usuário, desejo filtrar os projetos por um intervalo de datas, para visualizar apenas aqueles que ocorreram ou estão ocorrendo dentro do período especificado | 6          |
+| 2      | Como um administrador, quero filtrar no gráfico os projetos por período de execução para visualizar apenas os projetos que ocorreram ou estão ocorrendo em um intervalo de datas específico | 6          |
+| 2      | Como usuário, quero filtrar os projetos pelo coordenador responsável para visualizar seus projetos                                                     | 5          |
+| 2      | Como um administrador, quero poder filtrar no gráfico os projetos pelo coordenador responsável para acompanhar a performance dos coordenadores           | 5          |
+| 2      | Como usuário, quero filtrar os projetos pela situação atual para visualizar quais projetos estão em andamento ou encerrados                            | 7          |
+| 2      | Como um administrador, quero poder filtrar no gráfico os projetos pela situação atual para monitorar quais projetos estão em andamento ou encerrados     | 7          |
+| 2      | Como um administrador, quero poder filtrar os projetos por faixa orçamentária para identificar e analisar projetos dentro de um determinado intervalo de valores | 8          |
+| 2      | Como usuário, quero filtrar os projetos por referência do projeto para visualizá-los por palavra-chave                                                 | 8          |
+| 2      | Como administrador e usuário, quero realizar uma combinação de filtros para localizar os projetos de forma precisa                                     | 3          |
+| 3      | Como um Super Administrador, quero poder preencher um formulário de cadastro com as informações necessárias para criar um novo ADM                     | -          |
+| 3      | Como um ADM recém-cadastrado, quero receber um e-mail de boas-vindas com instruções para acessar o sistema e definir uma senha                         | -          |
+| 3      | Como um Super Administrador, quero poder visualizar uma lista de todos os ADMs cadastrados no sistema, incluindo detalhes como nome, e-mail, e data de criação | -          |
+| 3      | Como um Super Administrador, quero poder editar as informações de um ADM cadastrado caso haja necessidade de atualizar dados como e-mail ou número de telefone | -          |
+| 3      | Como um Super Administrador, quero poder desativar um ADM que não deve mais ter acesso ao sistema                                                      | -          |
+| 3      | Como super administrador quero aceitar ou não a proposta de criação, edição ou exclusão de projetos pelos administradores para garantir a autenticidade das informações | -          |
+| 4      | Como Super Administrador, quero ter acesso ao histórico de todas as alterações feitas nos projetos                                                     | -          |
+| 4      | Como usuário quero exportar projetos em formatos PDF ou Excel para que eu possa consultá-los offline ou compartilhá-los                                | -          |
+
 
 
 
