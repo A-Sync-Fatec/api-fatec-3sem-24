@@ -57,10 +57,18 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 
 ## ✅ Definition of Done (DoD)
 ### Funcionalidade:
-- A funcionalidade corresponde aos critérios de aceitação
+- As funcionalidades correspondem aos critérios de aceitação.
+- Testes para garantir integridade.
 
 ### Interface:
-- A interface corresponde ao mockup e o layout está adaptado para todos os principais tamanhos de tela
+- A interface corresponde ao mockup e o layout está adaptado para todos os principais tamanhos de tela.
+
+### Manual do Usuário
+- Guia de como navegar na aplicação e suas ferramentas.
+
+### Commit
+- padrão de mensagem seguida pela equipe.
+- mensagens claras e especificadas.
 
 <br>
 
@@ -103,29 +111,29 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 ## 📋 Product Backlog
 | Sprint | User Stories                                                                                                                                           | Estimativa |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
-| 1      | Como super administrador quero fazer login no sistema para acessar configurações avançadas e gerenciar o portal de forma eficiente.                     | 7          |
+| 1      | Como super administrador quero fazer login no sistema para acessar configurações avançadas e gerenciar o portal de forma eficiente.                     | 3          |
 | 1      | Como super administrador quero adicionar novos projetos ao sistema.               | 5          |
 | 1      | Como usuário e administrador, quero que os projetos do Portal de Transparência sejam integrados ao meu sistema, garantindo que os dados sejam preservados e mantenha a transparência | 8          |
-| 1      | Como usuário e administrador, desejo visualizar os projetos armazenados no banco de dados na página da FAPG para garantir a transparência              | 6          |
-| 2      | Como super administrador quero modificar projetos já criados para corrigir erros ou atualizar informações                                              | 5          |
+| 1      | Como usuário e administrador, desejo visualizar os projetos armazenados no banco de dados na página da FAPG para garantir a transparência              | 7          |
+| 2      | Como super administrador quero modificar projetos já criados para corrigir erros ou atualizar informações                                              | 6          |
 | 2      | Como super administrador quero excluir projetos obsoletos ou irrelevantes, mantendo o portal organizado                                                | 6          |
-| 2      | Como usuário, desejo filtrar os projetos por um intervalo de datas, para visualizar apenas aqueles que ocorreram ou estão ocorrendo dentro do período especificado | 6          |
-| 2      | Como um administrador, quero filtrar no gráfico os projetos por período de execução para visualizar apenas os projetos que ocorreram ou estão ocorrendo em um intervalo de datas específico | 6          |
-| 2      | Como usuário, quero filtrar os projetos pelo coordenador responsável para visualizar seus projetos                                                     | 5          |
-| 2      | Como um administrador, quero poder filtrar no gráfico os projetos pelo coordenador responsável para acompanhar a performance dos coordenadores           | 5          |
-| 2      | Como usuário, quero filtrar os projetos pela situação atual para visualizar quais projetos estão em andamento ou encerrados                            | 7          |
-| 2      | Como um administrador, quero poder filtrar no gráfico os projetos pela situação atual para monitorar quais projetos estão em andamento ou encerrados     | 7          |
-| 2      | Como um administrador, quero poder filtrar os projetos por faixa orçamentária para identificar e analisar projetos dentro de um determinado intervalo de valores | 8          |
-| 2      | Como usuário, quero filtrar os projetos por referência do projeto para visualizá-los por palavra-chave                                                 | 8          |
-| 2      | Como administrador e usuário, quero realizar uma combinação de filtros para localizar os projetos de forma precisa                                     | 3          |
-| 3      | Como um Super Administrador, quero poder preencher um formulário de cadastro com as informações necessárias para criar um novo ADM                     | -          |
-| 3      | Como um ADM recém-cadastrado, quero receber um e-mail de boas-vindas com instruções para acessar o sistema e definir uma senha                         | -          |
-| 3      | Como um Super Administrador, quero poder visualizar uma lista de todos os ADMs cadastrados no sistema, incluindo detalhes como nome, e-mail, e data de criação | -          |
-| 3      | Como um Super Administrador, quero poder editar as informações de um ADM cadastrado caso haja necessidade de atualizar dados como e-mail ou número de telefone | -          |
-| 3      | Como um Super Administrador, quero poder desativar um ADM que não deve mais ter acesso ao sistema                                                      | -          |
-| 3      | Como super administrador quero aceitar ou não a proposta de criação, edição ou exclusão de projetos pelos administradores para garantir a autenticidade das informações | -          |
-| 4      | Como Super Administrador, quero ter acesso ao histórico de todas as alterações feitas nos projetos                                                     | -          |
-| 4      | Como usuário quero exportar projetos em formatos PDF ou Excel para que eu possa consultá-los offline ou compartilhá-los                                | -          |
+| 2      | Como usuário, desejo filtrar os projetos por um intervalo de datas, para visualizar apenas aqueles que ocorreram ou estão ocorrendo dentro do período especificado | 5          |
+| 2      | Como um administrador, quero filtrar no gráfico os projetos por período de execução para visualizar apenas os projetos que ocorreram ou estão ocorrendo em um intervalo de datas específico | 4          |
+| 2      | Como usuário, quero filtrar os projetos pelo coordenador responsável para visualizar seus projetos                                                     | 4          |
+| 2      | Como um administrador, quero poder filtrar no gráfico os projetos pelo coordenador responsável para acompanhar a performance dos coordenadores           | 4          |
+| 2      | Como usuário, quero filtrar os projetos pela situação atual para visualizar quais projetos estão em andamento ou encerrados                            | 6          |
+| 2      | Como um administrador, quero poder filtrar no gráfico os projetos pela situação atual para monitorar quais projetos estão em andamento ou encerrados     | 6          |
+| 2      | Como um administrador, quero poder filtrar os projetos por faixa orçamentária para identificar e analisar projetos dentro de um determinado intervalo de valores | 7          |
+| 2      | Como usuário, quero filtrar os projetos por referência do projeto para visualizá-los por palavra-chave                                                 | 7          |
+| 2      | Como administrador e usuário, quero realizar uma combinação de filtros para localizar os projetos de forma precisa                                     | 9          |
+| 3      | Como um Super Administrador, quero poder preencher um formulário de cadastro com as informações necessárias para criar um novo ADM                     | 3          |
+| 3      | Como um ADM recém-cadastrado, quero receber um e-mail de boas-vindas com instruções para acessar o sistema e definir uma senha                         | 4          |
+| 3      | Como um Super Administrador, quero poder visualizar uma lista de todos os ADMs cadastrados no sistema, incluindo detalhes como nome, e-mail, e data de criação | 3          |
+| 3      | Como um Super Administrador, quero poder editar as informações de um ADM cadastrado caso haja necessidade de atualizar dados como e-mail ou número de telefone | 6          |
+| 3      | Como um Super Administrador, quero poder desativar um ADM que não deve mais ter acesso ao sistema                                                      | 2          |
+| 3      | Como super administrador quero aceitar ou não a proposta de criação, edição ou exclusão de projetos pelos administradores para garantir a autenticidade das informações | 5          |
+| 4      | Como Super Administrador, quero ter acesso ao histórico de todas as alterações feitas nos projetos                                                     | 7          |
+| 4      | Como usuário quero exportar projetos em formatos PDF ou Excel para que eu possa consultá-los offline ou compartilhá-los                                | 10          |
 
 
 
@@ -138,9 +146,9 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 | Foto | Função | Nome | Github | LinkedIn |
 | :--: | :----: | :--: | :----: | :------: |
 | <a href="https://github.com/ClaudioJaymeDiniz"> <img src="https://avatars.githubusercontent.com/ClaudioJaymeDiniz" alt="fotoperfil" width="50"></a> | Scrum Master | Cláudio Jayme Silva Diniz | <a href="https://github.com/ClaudioJaymeDiniz"> <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=000000'/></a> | <a href="https://www.linkedin.com/in/claudio-jayme/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| <a href="https://github.com/ErikaDias2"> <img src="https://avatars.githubusercontent.com/ErikaDias2" alt="fotoperfil" width="50"></a> | Product Owner | Erika Dias Ribeiro | <a href="https://github.com/erikadias2004"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/erika-dias-ribeiro-608359266/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| <a href="https://github.com/ErikaDias2"> <img src="https://avatars.githubusercontent.com/ErikaDias2" alt="fotoperfil" width="50"></a> | Scrum Team | Erika Dias Ribeiro | <a href="https://github.com/erikadias2004"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/erika-dias-ribeiro-608359266/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 | <a href="https://github.com/DiogoPalharini"> <img src="https://avatars.githubusercontent.com/DiogoPalharini" alt="fotoperfil" width="50"></a> | Scrum Team | Diogo Palharini | <a href="https://github.com/DiogoPalharini"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/diogo-palharini-10b803275/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| <a href="https://github.com/Henrique-GRamos"><img src="https://avatars.githubusercontent.com/Henrique-GRamos" alt="fotoperfil" width="50"></a> | Scrum Team | Henrique de Godoy Ramos | <a href="https://github.com/Henrique-GRamos"><img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=000000'/></a> | <a href="https://www.linkedin.com/in/henrique-ramos-a8a459290/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| <a href="https://github.com/Henrique-GRamos"><img src="https://avatars.githubusercontent.com/Henrique-GRamos" alt="fotoperfil" width="50"></a> | Product Owner | Henrique de Godoy Ramos | <a href="https://github.com/Henrique-GRamos"><img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=000000'/></a> | <a href="https://www.linkedin.com/in/henrique-ramos-a8a459290/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 |  <a href="https://github.com/collafilipe"> <img src="https://avatars.githubusercontent.com/collafilipe" alt="fotoperfil" width="50"></a> | Scrum Team | Filipe de Miranda Colla Francesco | <a href="https://github.com/collafilipe"><img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=000000'/></a> | <a href="https://www.linkedin.com/in/filipe-colla/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 |  <a href="https://github.com/ZduardoPereira"><img src="https://avatars.githubusercontent.com/u/127692036?v=4" alt="fotoperfil" width="50"></a> | Scrum Team | José Eduardo Fernandes Pereira | <a href="https://github.com/ZduardoPereira"><img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=000000'/></a> | <a href="https://www.linkedin.com/in/jos%C3%A9-eduardo-fernandes-pereira-b26517284/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 | <a href="https://github.com/ojuansoares"><img src="https://avatars.githubusercontent.com/ojuansoares" alt="fotoperfil" width="50"></a> | Scrum Team | Juan Garcia Soares | <a href="https://github.com/ojuansoares"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/ojuansoares"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
