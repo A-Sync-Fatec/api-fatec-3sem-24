@@ -38,5 +38,8 @@ Esta sprint terá como foco a criação de dashboards que permitirão uma visual
 <br>
 
 <span id="manual">
-## 📄 Manual do Usuário
+
+### 📄 Manual do Usuário
+  
+<br>
 <a href="https://github.com/A-Sync-Fatec/api-fatec-3sem-24/blob/main/documents/ManualdoUsuario-sprint2.pdf">Clique aqui</a>
