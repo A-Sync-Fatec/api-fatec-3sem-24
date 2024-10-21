@@ -78,8 +78,8 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 | Sprint | Período | Status |
 | :----: | :-----: | :----: |
 | [Sprint 1](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint1) | 09/09/2024 - 29/09/2024 | Concluído ✅ |  <br>
-| [Sprint 2](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint2) | 30/09/2024 - 20/10/2024 | Em Andamento 🔁 | <br>
-| Sprint 3 | 21/10/2024 - 10/11/2024  | Não Iniciado ❌ | <br>
+| [Sprint 2](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint2) | 30/09/2024 - 20/10/2024 | Concluído ✅ | <br>
+| [Sprint 3](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint3) | 21/10/2024 - 10/11/2024  | Em Andamento 🔁 | <br>
 | Sprint 4 | 11/11/2024 - 01/12/2024  | Não Iniciado ❌ |
 
 <br>
