@@ -133,8 +133,9 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 | 3      | Como um Super Administrador, quero poder desativar um ADM que não deve mais ter acesso ao sistema                                                      | 2          |
 | 3      | Como super administrador quero aceitar ou não a proposta de criação, edição ou exclusão de projetos pelos administradores para garantir a autenticidade das informações | 5          |
 | 4      | Como Super Administrador, quero ter acesso ao histórico de todas as alterações feitas nos projetos                                                     | 7          |
-| 4      | Como usuário quero exportar projetos em formatos PDF ou Excel para que eu possa consultá-los offline ou compartilhá-los                                | 10          |
-
+| 4      | Como usuário, quero exportar projetos em formatos PDF ou Excel para que eu possa consultá-los offline ou compartilhá-los                               | 10          |
+| 4      | Como Administrador,  quero poder ter um controle anual de gastos                                                                                       | 7          |
+| 4      | Como Administrador, quero poder ter controle de bolsistas                                                                                              | 6          |
 
 
 
