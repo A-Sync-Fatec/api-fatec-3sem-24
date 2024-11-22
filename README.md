@@ -10,7 +10,9 @@
   <a href="#DoD">Definition of Done (DoD) </a> |
   <a href="#sprints">Sprints</a>  |
   <a href="#requisitos">Requisitos do parceiro</a> |
-  <a href="#backlog">Product Backlog</a>  | 
+  <a href="#backlog">Product Backlog</a>  |
+  <a href="#cronograma">Cronograma</a>  |
+  <a href="#padrao_commit">Padrão de Commit</a>  |
   <a href="#equipe">Equipe</a>
 </p>
 
@@ -47,60 +49,35 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 <span id="DoR">
 
 ## 📝 Definition of Ready (DoR)
-### User stories:
-- Funcionalidades especificadas, compreendidas por todos da equipe e acordadas com o cliente.
-
-### Critérios de aceitação:
-- Descreve de forma clara o que o sistema precisa fazer para a funcionalidade estar completa.
-
-### Tarefas:
-- A funcionalidade é repartida em tarefas.
-
-### Modelo do banco de dados
-- Descreve a estrutura de armazenamento dos dados do sistema, incluindo as tabelas, os campos e os relacionamentos entre as tabelas.
-
-### Mockup
-- Uma representação visual estática da interface do usuário, que demonstra o layout e a organização dos elementos de cada página.
+<img src="/documents/definition_of_ready.png">
 
 <br>
 <br>
 
 <span id="DoD">
 
-## ✅ Definition of Done (DoD)
-### Funcionalidade:
-- As funcionalidades correspondem aos critérios de aceitação.
-- Testes para garantir integridade.
-
-### Interface:
-- A interface corresponde ao mockup e o layout está adaptado para todos os principais tamanhos de tela.
-
-### Manual do Usuário
-- Guia de como navegar na aplicação e suas ferramentas.
-
-### Commit
-- padrão de mensagem seguida pela equipe.
-- mensagens claras e especificadas.
+## 🆗 Definition of Done (DoD)
+<img src="/documents/definition_of_done.png">
 
 <br>
 <br>
 
 <span id="sprints">
 
-## 🗓 Sprints
+## 📁 Sprints
 | Sprint | Período | Status |
 | :----: | :-----: | :----: |
-| [Sprint 1](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint1) | 09/09/2024 - 29/09/2024 | Concluído ✅ |  <br>
-| [Sprint 2](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint2) | 30/09/2024 - 20/10/2024 | Concluído ✅ | <br>
-| [Sprint 3](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint3) | 21/10/2024 - 10/11/2024  | Concluído ✅ | <br>
-| Sprint 4 | 11/11/2024 - 01/12/2024  | Em Progresso 🔁 |
+| [Sprint 1](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint1) | 09/09/2024 - 29/09/2024 | ✅ |  <br>
+| [Sprint 2](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint2) | 30/09/2024 - 20/10/2024 | ✅ | <br>
+| [Sprint 3](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint3) | 21/10/2024 - 10/11/2024 | ✅ | <br>
+| Sprint 4 | 11/11/2024 - 01/12/2024  | ⌛ |
 
 <br>
 <br>
 
 <span id="requisitos">
 
-## ☝️ Requisitos do parceiro
+## ☝️ Requisitos do Parceiro
 | ID | Requisitos Funcionais |
 | :--: | :-----------------: |
 | 1 | Ferramenta para migração dos dados do sistema da FAPG para o novo banco de dados |
@@ -122,7 +99,7 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 
 <span id="backlog">
 
-## 📋 Product Backlog
+## 🌱 Product Backlog
 | Sprint | User Stories                                                                                                                                           | Estimativa |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
 | 1      | Como Super Admin, quero poder fazer login no sistema para acessar configurações avançadas e gerenciar o portal de forma eficiente.                     | 3          |
@@ -153,9 +130,25 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 | 4      | Como Administrador, quero poder cadastrar materiais comprados pela Fundação que alguns projetos podem precisar.                                        | 6          |
 | 4      | Como Administrador, quero poder cadastrar análises finais de projetos que foram finalizados.                                                           | 7          |
 
+<br>
+<br>
 
+<span id="cronograma">
 
+## 📅 Cronograma
+<br>
+<img src="/documents/cronograma.png" style="width: 50%;">
 
+<br>
+<br>
+
+<span id="padrao_commit">
+  
+## 📃 Padrão de Commit
+<br>
+<img src="/documents/padrao_commit.png" style="width: 50%;">
+
+<br>
 <br>
 
 <span id="equipe">
