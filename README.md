@@ -1,11 +1,10 @@
-<div align="center">
-  <img alt="logo" width="800" src="https://drive.google.com/uc?id=1ME5HWejQMOexNmT7WEnPESlQNyF7f4E6">
-</div>
+<img src="/documents/capa_readme.png">
 
 <br>
 
 <p align="center">
-  <a href="#objetivo">Objetivo do Projeto </a>  |
+  <a href="#visao">Visão Geral </a>  |
+  <a href="#funcionalidades">Funcionalidades </a>  |
   <a href="#tecnologias">Tecnologias </a>  |
   <a href="#DoR">Definition of Ready (DoR) </a> |
   <a href="#DoD">Definition of Done (DoD) </a> |
@@ -16,21 +15,33 @@
 </p>
 
 </br>
+<br>
 
-<span id="objetivo">
+<span id="visao">
   
-## 🎯 Objetivo do Projeto
+## 📖 Visão Geral
+
 Este projeto é uma releitura do portal de transparência da Fundação de Apoio à Pesquisa de Pós-Graduandos(FAPG), desenvolvido com foco na segurança e acessibilidade. Aproveitando as tecnologias e linguagens de programação mais recentes, buscamos oferecer uma plataforma robusta e confiável, que facilite o acesso às informações públicas de maneira transparente e eficiente.
 
 <br>
+<br>
+
+<span id="funcionalidades">
+  
+## ⚙️ Funcionalidades Principais
+<br>
+<img src="/documents/funcionalidades.png">
+
+<br>
+<br>
 
 <span id="tecnologias">
- 
+  
 ## 💻 Tecnologias
-<div align="center">
- <img src="https://img.shields.io/badge/java-%23ED8B28.svg?style=for-the-badge&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"> <img src="https://img.shields.io/badge/typescript-%230b0f87.svg?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/mysql-7d09d6.svg?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/figma-%23000000.svg?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
-</div>
+<br>
+<img src="/documents/tecnologias.png">
 
+<br>
 <br>
 
 <span id="DoR">
@@ -79,8 +90,8 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 | :----: | :-----: | :----: |
 | [Sprint 1](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint1) | 09/09/2024 - 29/09/2024 | Concluído ✅ |  <br>
 | [Sprint 2](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint2) | 30/09/2024 - 20/10/2024 | Concluído ✅ | <br>
-| [Sprint 3](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint3) | 21/10/2024 - 10/11/2024  | Em Andamento 🔁 | <br>
-| Sprint 4 | 11/11/2024 - 01/12/2024  | Não Iniciado ❌ |
+| [Sprint 3](https://github.com/A-Sync-Fatec/api-fatec-3sem-24/tree/sprint3) | 21/10/2024 - 10/11/2024  | Concluído ✅ | <br>
+| Sprint 4 | 11/11/2024 - 01/12/2024  | Em Andamento 🔁 |
 
 <br>
 
