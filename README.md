@@ -1,33 +1,46 @@
 <div align="center">
-  <img alt="logo" width="800" src="https://drive.google.com/uc?id=1U_xZRvSjeq6Havlb8ebhNp9dZKCCQ41b">
+  <img alt="logo" src="documents/sprint_04.png"
 </div>
 
 <br>
-
-<p align="center">
-  <a href="#objetivo">Objetivo da Sprint </a>  |
-  <a href="#backlog">Sprint Backlog</a>
-</p>
-
 </br>
 
-<span id="objetivo">
+<div align=left> 
   
-## 🎯 Objetivo da Sprint
-Esta sprint terá como foco a criação de dashboards que permitirão uma visualização abrangente dos projetos, com opções de filtragem por data, coordenador, situação atual e faixa orçamentária. Além disso, também será possível o administrador atualizar e excluir projetos, além do usuário conseguir realizar a busca com filtros.
+## 📦 Objetivo da Sprint
+<br>
+Na Sprint 04 foi criada a possibilidade do administrador poder escolher a refêrencia do projeto que ele quiser na hora da criação de um projeto, sem ter que seguir um padrão. 
+<br>
+<br>
+Também foi criado o CRUD de bolsistas, convênios, materiais e análises de projeto, e também uma geração de relatório que mostra listas e dados desses 4 novos CRUDs. 
+<br>
+<br>
+Há uma nova página de histórico, no qual é possível ver ações que administradores fizeram no site e a data em que a ação foi feita. 
+<br>
+<br>
+Por último, agora também é possível exportar projetos via PDF ou Excel.
+
+</div>
 
 <br>
+<br>
 
-<span id="backlog">
+<div align=left> 
 
 ## 📖 Sprint Backlog
-| ID  | User Storie | Estimativa (pontos) | Critérios de Aceitação | Tarefas Front | Tarefas Back |
+<br>
+
+| ID  | User Story | Estimativa (pontos) | Critérios de Aceitação | Tarefas Front | Tarefas Back |
 | --- | ----------- | ------------------- | ---------------------- | ------------- | ------------ |
-| 1   | Como administrador, quero poder ter acesso a relatorios anuais.  | 7 | Pagina de dashboards voltada a relatorios anuais. | - Interface: criar a página de dashboards anuais.|  |
-| 2   | Como administrador, quero cadastrar novos bolsistas ao sistema.  | 6 | Pagina para cadastrar novos bolsista no sistema. |- Interface: criar pagina de bolsistas | - Função: criar função novos bolsistas, editar e remover. |
-| 3   | Como administrador, quero cadastrar equipamentos no sistema.  | 6 | Pagina para casdastrar novos equipamentos ao sistema. |  | - Função: criar a função de cadastrar, remover e editar equipamentos. |
-| 4   | Como administrador, quero poder ter controle de convenios.    | 5 | Pagina de criação de e exibição de convenios. | - Interface: criar pagina de exibição de convenios. | - Função: cadastro de convenios.     |
-| 5   | Como super administrador, quero poder ver um dashboard de gastos anuais detalhado.                                                 | 7                   | Pagina para ver dashboard com gastos e arrecadação anual, detalhado por mes.                                            | - Função: criar dashboard de gastos anuais detalhado.    | 
-| 6  | Como usuario, quero poder ver os gastos anuais.                           | 7                  | Visualização dos gastos anuais, onde foram gastos e o quanto foi arrecado.                                                | - Interface:  criar pagina de valor arrecado e gastos gerado pela fundação durante um determinado ano.                                                                                                                  |                                                     |
-| 7   | Como super administrador, quero poder visualizar historico de alteraçoes feito por um administrador.                                        | 7                  | Criação de um log sobre alteraçôes feitas por um admistrador, com hora, dia e mes.                                                                                                                           | - Interface: exibir todos os dados da modificação. |                                                     |
-| 8   | Como administrador, quero poder gerar arquivos pdf's para ter uma documentação.                                                 | 10                   | Opção dentro dos dashboards para exportar para pdf.                                            | - Função: criar função para gerar pdf em cima do dashboard escolhido.    |                                                   |                                                                                                                                                                                                                                                                                                               
+| 1   | Como administrador, quero poder escolher a referência de projeto que eu quiser na hora de criar um projeto. | 3 | Possibilidade do usuário digitar a referência de projeto preferida. | - Adicionar input para digitar a ref. do projeto. | - Na entidade "Projeto" mudar o atributo "Ref. Projeto" para guardar IDs no formato XXX/YY ao invés do nome do projeto. |
+| 2   | Como administrador, quero uma página de relatório que liste todos os CRUDs de bolsistas, convênios, materiais e análises. | 7 | Página relatório que mostre os cards de todos os CRUDs mencionados. | Interface da página de relatório e conexão com o back para pegar as informações. |  |
+| 3   | Como administrador, quero poder criar, visualizar, editar ou excluir bolsistas. | 4 | CRUD completo da entidade Bolsista. | Interface para criar e editar bolsistas, card de bolsista com botões de editar ou deletá-lo. | Função com rotas para cadastrar, visualizar, editar ou excluir bolsistas. |
+| 4   | Como administrador, quero poder criar, visualizar, editar ou excluir convênios. | 4 | CRUD completo da entidade Convênio. | Interface para criar e editar convênios, card de convênio com botões de editar ou deletar. | Função com rotas para cadastrar, visualizar, editar ou excluir convênios. |
+| 5   | Como administrador, quero poder criar, visualizar, editar ou excluir materiais. | 4 | CRUD completo da entidade Material. | Interface para criar e editar materiais, card de material com botões de editar ou deletar. | Função com rotas para cadastrar, visualizar, editar ou excluir materiais. |
+| 6   | Como administrador, quero poder criar, visualizar, editar ou excluir análises. | 4 | CRUD completo da entidade Análise Projeto. | Interface para criar e editar análises, card de análise com botões de editar ou deletar. | Função com rotas para cadastrar, visualizar, editar ou excluir análises. |
+| 7   | Como administrador, quero poder exportar todas as informações sobre bolsistas, convênios, materiais e análises em um PDF de relatório anual, junto com gráficos que mostrem mais informações para enriquecer o conteúdo. | 6 | Botão que consiga gerar todas as informações sobre os novos CRUDs junto com gráficos variados. | Criação do botão e lógica para captura das informações e geração dos gráficos para exportação. |  |
+| 8   | Como administrador, quero poder ver o histórico de ações que outros administradores fizeram na aplicação. | 10 | Página de histórico que mostre as ações feitas por administradores junto com a data de modificação. | Interface da página de histórico e conexão com o back para pegar as informações. | Funções que gerem um JSON com as ações feitas por administradores. |
+| 9   | Como administrador, quero poder exportar um projeto via PDF ou Excel. | 3 | Botões com funções de exportar um projeto via PDF e Excel. | Criação dos botões e lógica para captura das informações para exportação. |  |
+
+</div>
+
