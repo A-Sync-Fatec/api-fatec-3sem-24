@@ -34,7 +34,6 @@ Também foi criado a página Notificações, no qual Super Administradores podem
 
 <span id="manual">
 
-### 📄 Manual do Usuário
-  
+## 📄 Manual do Usuário
 <br>
 <a href="https://github.com/A-Sync-Fatec/api-fatec-3sem-24/blob/main/documents/ManualdoUsuario-3sprint.pdf">Clique aqui</a>
