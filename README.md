@@ -1,26 +1,29 @@
 <div align="center">
-  <img alt="logo" width="800" src="https://drive.google.com/uc?id=1AF9APEcJXU3mlF_CxLVOq_cwVuJJO8BL">
+  <img alt="logo" src="documents/sprint_02.png"
+</div>
+
+<br>
+<br>
+
+<div align="left">
+  
+## 📦 Objetivo da Sprint
+<br>
+
+Esta sprint terá como foco a criação de dashboards que permitirão uma visualização abrangente dos projetos, com opções de filtragem por data, coordenador, situação atual e faixa orçamentária. 
+<br>
+<br>
+Além disso, também será possível o administrador atualizar e excluir projetos, além do usuário conseguir realizar a busca com filtros.
+
 </div>
 
 <br>
 
-<p align="center">
-  <a href="#objetivo">Objetivo da Sprint </a>  |
-  <a href="#backlog">Sprint Backlog</a>
-</p>
-
-</br>
-
-<span id="objetivo">
-  
-## 🎯 Objetivo da Sprint
-Esta sprint terá como foco a criação de dashboards que permitirão uma visualização abrangente dos projetos, com opções de filtragem por data, coordenador, situação atual e faixa orçamentária. Além disso, também será possível o administrador atualizar e excluir projetos, além do usuário conseguir realizar a busca com filtros.
-
-<br>
-
-<span id="backlog">
+<div align="left">
 
 ## 📖 Sprint Backlog
+<br>
+
 | ID  | User Storie | Estimativa (pontos) | Critérios de Aceitação | Tarefas Front | Tarefas Back |
 | --- | ----------- | ------------------- | ---------------------- | ------------- | ------------ |
 | 1   | Como super administrador, quero modificar projetos já criados para corrigir erros ou atualizar informações.  | 6 | O ícone de edição na página de projetos do administrador levará para a interface de edição de projetos, onde mostrará as informações do projeto atual. Quando alterar as informações e clicar no botão “atualizar”, os novos dados serão modificados e enviados ao banco. | - Interface: criar a página de edição de projeto com a validação de campos obrigatórios.<br>- Atualizar: conectar ao backend e utilizar a rota de atualizar projeto para enviar as atualizações ao banco quando clicar no botão “Atualizar”. | - Função: adicionar uma rota para a função de atualização do projeto. |
@@ -34,12 +37,15 @@ Esta sprint terá como foco a criação de dashboards que permitirão uma visual
 | 9   | Como administrador, quero filtrar os projetos por faixa orçamentária.                                        | 7                  | Quando selecionado o valor no filtro “valor mínimo” será mostrado o gráfico com os projetos a partir do valor inserido até o maior valor armazenado.                                                                                                                                | - Função: filtrar os projetos do banco entre o valor mínimo inserido no input até o maior valor armazenado no banco.<br>- Gráfico: exibir os dados filtrados no gráfico.                                                                                                                                                                                                        |                                                     |
 | 10  | Como usuário, quero filtrar os projetos por referência do projeto.                                           | 9                   | Quando selecionado o input “Referência do projeto”, será exibido um dropdown com todas as referências de projeto. Caso o nome digitado não existir, mostrar uma mensagem informando o usuário.                                                                                     | - Função: filtrar projetos comparando com as letras escritas no input text e os projetos armazenados no banco.                                                                                                                                                                                                                                                                  |                                                     |
 | 11  | Como administrador e usuário, quero realizar uma combinação de filtros para localizar os projetos.           | 10                   | Quando selecionado dois ou mais filtros, será mostrado o gráfico com as informações de ambos os filtros selecionados.                                                                                                                                                             | - Função Reutilizável: combinar os dados dos filtros e aplicar no gráfico.                                                                                                                                                                                                                                                                                                      |                                                     |
+</div>
 
 <br>
+<br>
 
-<span id="manual">
-
-### 📄 Manual do Usuário
+<div align="left">
   
+## 📄 Manual do Usuário
 <br>
+
 <a href="https://github.com/A-Sync-Fatec/api-fatec-3sem-24/blob/main/documents/ManualdoUsuario-sprint2.pdf">Clique aqui</a>
+</div>
