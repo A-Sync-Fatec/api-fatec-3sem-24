@@ -151,33 +151,33 @@ Este projeto é uma releitura do portal de transparência da Fundação de Apoio
 <br>
 <br>
 
-## 📄 Manual do Usuário
+# 📄 Manual do Usuário
 <br>
 
-# Manual Geral
+## Manual Geral
 
 Aqui você encontrará uma visão abrangente das funcionalidades disponíveis para todos os perfis de usuário, ajudando a navegar e utilizar o site de forma eficiente.
 
-[Baixe o PDF aqui da Documentação Completa](./documents/manual_usuario_sprint04.pdf)
+[PDF do Manual Completo](./documents/manual_usuario_sprint04.pdf)
 
-# Manual do Administrador Principal
+## Manual do Administrador Principal
 
 Este manual é destinado ao Administrador Principal, que possui controle total sobre o sistema. Aqui você encontrará instruções detalhadas para gerenciar todas as funcionalidades e garantir o bom funcionamento da plataforma.
 
-[Baixe o PDF aqui do Administrador Principal](./documents/ManualADMPrincipal.pdf)
+[PDF do Administrador Principal](./documents/ManualADMPrincipal.pdf)
 
-# Manual do Administrador Menor
+## Manual do Administrador Menor
 
 Este manual foi criado para o Administrador Menor, com foco nas funções limitadas atribuídas a esse perfil. Explore as instruções para desempenhar suas responsabilidades de forma eficiente e segura.
 
-[Baixe o PDF aqui do Administrador Menor](./documents/ManualADMMenor.pdf)
+[PDF do Administrador Menor](./documents/ManualADMMenor.pdf)
 
 
-# Manual do Usuário Comum
+## Manual do Usuário Comum
 
 Este guia é para você, usuário comum, e explica como acessar e aproveitar as funcionalidades do site.
 
-[Baixe o PDF aqui do Administrador Menor](./documents/ManualUsuarioComum.pdf)
+[PDF do Usuário Comum](./documents/ManualUsuarioComum.pdf)
 
 <span id="equipe">
 
