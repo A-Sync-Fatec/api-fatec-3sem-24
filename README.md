@@ -44,3 +44,9 @@ Por último, agora também é possível exportar projetos via PDF ou Excel.
 
 </div>
 
+## 📄 Manual do Usuário
+<br>
+<a href="https://github.com/A-Sync-Fatec/api-fatec-3sem-24/blob/main/documents/manual_usuario_sprint04.pdf">Clique aqui</a>
+
+
+
